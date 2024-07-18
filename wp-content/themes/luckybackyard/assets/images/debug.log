@@ -1,0 +1,11 @@
+[0124/031656.902:WARNING:ipc_message_attachment_set.cc(49)] MessageAttachmentSet destroyed with unconsumed attachments: 0/1
+[0124/031657.980:ERROR:browser_gpu_channel_host_factory.cc(139)] Failed to launch GPU process.
+[0222/194640.600:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0222/200306.459:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0222/200430.140:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0222/200508.811:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0222/201330.851:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0222/201505.213:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0222/210006.794:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0222/220927.362:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0223/011105.961:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.

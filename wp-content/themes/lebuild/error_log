@@ -1,0 +1,4 @@
+[25-Jun-2023 03:33:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/zcommonsupport/public_html/lebulid/wp-content/themes/lebuild/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/zcommonsupport/public_html/lebulid/wp-content/themes/lebuild/index.php on line 10

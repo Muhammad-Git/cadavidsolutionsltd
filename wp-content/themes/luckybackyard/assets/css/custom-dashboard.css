@@ -1,0 +1,10 @@
+body .select2-container span.select2-selection--multiple .select2-selection__choice{
+    color: #000;
+}
+#setting-error-tgmpa,
+.taxonomy-rz_amenities .rz-outer {
+    display: none;
+}
+.select2-container .select2-selection--single{
+    height: 41px;
+}

@@ -1,0 +1,21 @@
+:host {
+    --color-fg-primary: #4CAF50;
+    --color-bg-inrange: #4caf5029;
+    /*Button*/
+    --color-btn-primary-fg: #4CAF50; 
+    --color-btn-primary-border: #4CAF50;
+    --color-btn-primary-hover-bg: #4CAF50;
+    
+    --color-btn-primary-disabled-bg: #4caf50b3;
+    --color-btn-primary-disabled-border: #4caf50b3;
+}
+
+.container.lock-plugin .calendar>.days-grid>.day.locked:not(.start):not(.end) {
+  background-image: repeating-linear-gradient(135deg, transparent, #4CAF50 2px, transparent 0, transparent 4px);
+}
+
+.easepick-dp input {
+    cursor: pointer;
+    color: #9B9B9B;
+    font-weight: 300;
+}

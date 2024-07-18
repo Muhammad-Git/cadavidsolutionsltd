@@ -1,0 +1,125 @@
+/*** 
+=============================================
+   Video Gallery Area Css
+=============================================
+***/
+.video-gallery-area{
+    position: relative;
+    display: block;
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0 136px;
+	overflow: hidden;
+    z-index: 1;
+}
+.video-gallery-area:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: #11161e;
+    opacity: 0.80;
+    z-index: 1 ;  
+}
+
+.video-holder-box {
+    position: relative;
+    display: block;
+}
+.video-holder-box .icon {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 207px;
+    height: 207px;
+    margin: 0 auto;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.video-holder-box .icon a:after, 
+.video-holder-box .icon a:before {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: transparent;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-animation-delay: .9s;
+  animation-delay: .9s;
+  content: "";
+  position: absolute;
+  -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.9);
+  -webkit-animation: ripple 3s infinite;
+  animation: ripple 3s infinite;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+.video-holder-box .icon a:after {
+  -webkit-animation-delay: .6s;
+  animation-delay: .6s;
+}
+
+@-webkit-keyframes ripple {
+  70% {
+    -webkit-box-shadow: 0 0 0 60px rgba(255, 255, 255, 0);
+            box-shadow: 0 0 0 60px rgba(255, 255, 255, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+            box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+  }
+}
+@keyframes ripple {
+  70% {
+    -webkit-box-shadow: 0 0 0 60px rgba(255, 255, 255, 0);
+            box-shadow: 0 0 0 60px rgba(255, 255, 255, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+            box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+  }
+}
+
+.video-holder-box .icon a {
+    position: relative;
+    display: inline-block;
+    width: 151px;
+    height: 151px;
+    background: rgba(255, 255, 255, 0.20);
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 50px;
+    line-height: 150px;
+	z-index: 1;
+}
+
+.video-holder-box h2{
+    color: #ffffff;
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin: 58px 0 0;
+}
+
+
+
+
+
+
+
+
+
+

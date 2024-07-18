@@ -1,0 +1,450 @@
+.pull-left {
+    float: left;
+}
+.pull-right {
+    float: right;
+}
+.footer-area-two {
+    border-left: 30px solid #ffffff;
+    /* border-bottom: 30px solid #ffffff; */
+    border-right: 30px solid #ffffff;
+}
+.footer-area-two.three {
+    border-bottom: 30px solid #ffffff;
+}
+.home_map {
+    left: 0;
+}
+.team-style1-area.three {
+    margin-top: -300px;
+}
+.service-details-area.one {
+    padding-bottom: 0;
+}
+.service-details-area.two {
+    padding: 0;
+}
+.service-details-area.three {
+    padding-top: 0;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #fff;
+    content: "\f105";
+    font-family: 'Font Awesome 5 Pro';
+}
+.breadcrumb-menu ul li {
+    color: #e74901;
+}
+.project-details-area.one {
+    padding-bottom: 0;
+}
+.project-details-area.two {
+    padding: 0;
+}
+.project-details-area.three {
+    padding: 0;
+}
+.project-details-area.four {
+    padding-top: 0;
+}
+.project-details-area.five {
+    padding-bottom: 0;
+}
+.project-details-area.six {
+    padding: 0;
+}
+.project-details-area.seven {
+    padding: 0;
+}
+.project-details-area.eight {
+    padding: 0;
+}
+.form-control:focus {
+    border-color: unset;
+    outline: unset;
+    box-shadow: unset;
+}
+
+
+
+.widget_search {
+    /* position: relative; */
+    /* display: block; */
+    /* padding: 45px 30px 50px; */
+    /* z-index: 1; */
+    /* margin-bottom: 50px; */
+}
+.widget_search::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: #ffffff; */
+    z-index: -1;
+}
+.widget_search h3 {
+    color: #11161e;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 24px;
+}
+
+
+
+.widget_categories {
+    /* position: relative; */
+    /* display: block; */
+    /* background: #ffffff; */
+    /* padding: 45px 30px 40px; */
+    /* z-index: 1; */
+    /* margin-bottom: 50px; */
+}
+.widget_categories::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    z-index: -1;
+}
+.widget_categories h3 {
+    color: #11161e;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 13px;
+}
+.widget_categories ul {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.widget_categories ul li {
+    position: relative;
+    display: block;
+}
+.widget_categories ul li a {
+    position: relative;
+    display: block;
+    padding-left: 25px;
+    color: #777777;
+    font-size: 14px;
+    line-height: 36px;
+    font-weight: 400;
+    transition: all 500ms ease;
+    font-family: 'Open Sans', sans-serif;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.widget_categories ul li a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    background: #f3f3f4;
+    border-radius: 3px;
+    border: 1px solid #e7e7e8;
+    margin: 11px 0;
+}
+.widget_categories ul li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 3px;
+    transform: scale(0);
+    margin: 11px 0;
+    -webkit-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;   
+}
+.widget_categories ul li a:hover:after{
+    transform: scale(1.0);
+}
+.widget_categories ul li a::after {
+    border: 1px solid #e74901;
+	    background: #e74901;
+}
+.widget_categories li a:hover {
+	color: #e74901;
+}
+
+
+
+
+
+
+
+.testimonial-style1-area.h2 .inner-content:before {
+    position: absolute;
+    top: 0;
+    left: -10000000px;
+    bottom: 0;
+    right: -10000000px;
+    background: #ffffff;
+	content: "";
+}
+.two .subscribe-style2-area .subscribe-content-box {
+    margin-top: 0px;
+}
+
+
+.about-style1-area.pdb120 .about-style1-content-box {
+    margin-top: 0;
+}
+.partner-area.bg_white .single-partner-logo-box {
+    background: #f3f3f4;
+}
+
+
+
+
+
+/*** 
+=============================================
+    Team Single Area Css
+=============================================
+***/
+.team-single-area{
+    position: relative;
+    display: block;
+    padding: 120px 0 80px;
+}
+.team-singel-image-box{
+    position: relative;
+    display: block;    
+}
+.team-singel-image-box img{
+    width: 100%;
+}
+
+.team-member-info-box{
+    position: relative;
+    display: block;
+    padding: 56px 45px;
+    box-shadow: 0 0 20px rgb(0 0 0 / 0.05);
+}
+
+.team-member-info-box .title {
+    position: relative;
+    display: block;
+    padding-bottom: 6px;
+}
+
+.team-member-info-box .title h3{
+    color: #222222;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    margin: 0 0 6px;
+}
+
+.team-member-info-box .title span{
+    color: #798795;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.team-member-info-box ul {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin-top: 22px;
+}
+.team-member-info-box ul li {
+    color: #798795;
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 500;
+    display: inline-block;
+    margin-right: 10px;
+}
+.team-member-info-box ul li span {
+    position: relative;
+    display: inline-block;
+    padding-right: 5px;
+    color: #000000;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.team-member-info-box ul li a{
+    color: #798795;
+}
+.team-member-info-box .social-links-style1 {
+    margin-top: 36px;
+}
+.team-member-info-box .social-links-style1 li a i {
+    position: relative;
+    display: block;
+    background: #ededed;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px 20px 10px 20px;
+    color: #798795;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+    transition: all 500ms ease;
+}
+.team-member-info-box .social-links-style1 li a:hover i{
+    color: #ffffff;
+    background: #e74901;
+}
+
+.team-member-content-box {
+    position: relative;
+    display: block;
+    padding-top: 46px;
+    padding-bottom: 60px;
+}
+.team-member-content-box h3{
+    color: #000000;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    margin: 0 0 30px;
+}
+
+
+.one.team-single-area {
+    padding-bottom: 0;
+}
+.two.team-single-area {
+    padding-bottom: 0;
+}
+.three.team-single-area {
+    padding-top: 0;
+}
+
+
+
+
+
+span.page-numbers.current {
+    position: relative;
+    display: inline-block !important;
+    width: 45px;
+    height: 50px;
+    padding: 0 !important;
+    background: #e74901 !important;
+    border-radius: 0%;
+    border-color: #e74901 !important;
+    border: 1px solid #e74901;
+    color: #fff !important;
+    font-size: 16px !important;
+    line-height: 48px !important;
+    font-weight: 500 !important;
+    text-align: center;
+    text-transform: capitalize;
+    transition: all 500ms ease;
+    font-family: 'Poppins', sans-serif;
+    z-index: 1;
+}
+
+
+.funfact-one__single::before {
+    content: '';
+    width: 9px;
+    height: 57px;
+    background-image: url(../images/shapes/line-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+
+
+@media only screen and (max-width: 1024px){
+
+.footer-area.one .footer {
+    padding-bottom: 0;
+}
+.footer-area.two .footer {
+    padding: 0;
+}
+.footer-area.three .footer {
+    padding: 0;
+}
+.footer-area.four .footer {
+    padding: 0;
+}
+.footer-area.five .footer {
+    padding-top: 0;
+}
+.single-footer-widget.martop {
+    margin-top: 0;
+}
+.about-style3-area.two {
+    padding-top: 0;
+}
+.home_map {
+    top: 0px !important;
+    left: 0 !important;
+}
+section.project-details-area.four {
+    padding-bottom: 0;
+}
+section.project-details-area.five {
+    padding-top: 50px;
+}
+section.faq-style1-area.pad120-0.one {
+    padding-bottom: 0;
+}
+section.faq-style1-area.pad120-0.two {
+    padding-top: 0;
+}
+section.contact-style1-area.two {
+    padding-bottom: 50px;
+}
+section.project-details-area.three.hh {
+    padding-bottom: 100px;
+}
+
+
+
+.lebuild-comment-item .btn-one {
+    color: #000 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+}
+
+
+
+
+
+
+
+.breadcrumb-area .title {
+    margin-bottom: 20px;
+}
